@@ -1,0 +1,141 @@
+.about-page {
+  background: #fafaf9;
+  padding: 80px 20px;
+}
+
+/* HEADER */
+.about-header {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-header h1 {
+  font-size: 36px;
+  margin-bottom: 12px;
+  color: #1f2937;
+}
+
+.about-header p {
+  font-size: 17px;
+  color: #4b5563;
+  line-height: 1.7;
+}
+
+/* FEATURE GRID */
+.feature-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-bottom: 70px;
+}
+
+.feature-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 28px 22px;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.feature-card span {
+  font-size: 34px;
+}
+
+.feature-card h3 {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #14532d;
+}
+
+.feature-card p {
+  font-size: 15px;
+  color: #4b5563;
+  margin-top: 8px;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* SPECIAL */
+.about-special {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.about-special h2 {
+  font-size: 24px;
+  margin-bottom: 14px;
+  color: #1f2937;
+}
+
+.about-special ul {
+  padding-left: 20px;
+}
+
+.about-special li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #374151;
+}
+
+/* TECH STACK */
+.about-tech {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-tech h2 {
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.tech-list {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.tech-list span {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  padding: 10px 18px;
+  font-size: 15px;
+}
+
+/* ICONS */
+.feature-icon {
+  font-size: 34px;
+  color: #14532d;
+  margin-bottom: 12px;
+}
+
+/* TECH ICONS */
+.tech-list span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .about-header h1 {
+    font-size: 28px;
+  }
+
+  .about-special h2,
+  .about-tech h2 {
+    font-size: 20px;
+  }
+}

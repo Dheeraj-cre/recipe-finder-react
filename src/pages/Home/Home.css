@@ -1,0 +1,136 @@
+.hero-section {
+  background: #f9fafb;
+  padding: 80px 24px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Headline */
+.hero-content h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+/* Subline */
+.hero-content p {
+  font-size: 18px;
+  color: var(--text-light);
+  margin-bottom: 32px;
+}
+
+/* Search */
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.hero-actions input {
+  width: 320px;
+  padding: 14px 16px;
+  border-radius: 30px;
+  border: 1px solid #d1d5db;
+  font-size: 15px;
+}
+
+.hero-actions button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* HERO ICON FEATURES */
+.hero-features {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.hero-feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero-feature svg {
+  font-size: 18px;
+  color: #14532d;
+}
+
+.hero-feature:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+  .hero-features {
+    gap: 16px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .hero-features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-feature {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+}
+
+
+/* ✅ Tablet */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions input {
+    width: 100%;
+  }
+}
+
+/* ✅ Mobile */
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 60px 16px;
+  }
+
+  .hero-content h1 {
+    font-size: 26px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+}
