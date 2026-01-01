@@ -1,16 +1,15 @@
-# React + Vite
+Everyday Chef is a simple recipe website built using React.
+It helps people find food recipes easily without any confusion.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+! I am currently working on this project !
 
-Currently, two official plugins are available:
+Users can search recipes by dish name or ingredient.
+They can also browse recipes by category and view full cooking steps.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app works smoothly on mobile, tablet, and desktop.
+There is no login or signup required — just open and use it.
 
-## React Compiler
+This project uses React, basic CSS for responsive design, and a free public recipe API.
+It is part of my learning journey and portfolio work.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I am still improving the UI and adding new features step by step.
