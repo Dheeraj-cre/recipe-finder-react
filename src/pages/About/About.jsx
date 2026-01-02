@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { SiCss3 } from "react-icons/si";
 import { MdPublic } from "react-icons/md";
+import Footer from "../../components/Footer/Footer";
 
 function About() {
   return (
@@ -79,6 +80,7 @@ function About() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

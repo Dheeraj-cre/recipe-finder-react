@@ -11,6 +11,7 @@ import {
   FaRandom,
   FaMobileAlt,
 } from "react-icons/fa";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   const [recipes, setRecipes] = useState([]);
@@ -97,6 +98,7 @@ function Home() {
       </section>
 
       <RecipeGrid recipes={recipes} />
+      <Footer />
     </>
   );
 }

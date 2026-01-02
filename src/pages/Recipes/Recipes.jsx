@@ -12,6 +12,7 @@ import {
   FaFish,
   FaIceCream,
 } from "react-icons/fa";
+import Footer from "../../components/Footer/Footer";
 
 function Recipes() {
   const [categories, setCategories] = useState([]);
@@ -92,6 +93,7 @@ function Recipes() {
           <RecipeGrid recipes={recipes} />
         )}
       </section>
+      <Footer />
     </>
   );
 }
